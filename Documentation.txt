@@ -1,0 +1,51 @@
+Overview
+MPYdata is a Python module designed for database projects.
+It offers a simple and intuitive syntax that makes it easy to learn and perform various database tasks.
+Despite its simplicity, MPYdata can handle advanced database operations with minimal effort.
+
+Installation
+To install MPYdata, use the following command:
+
+Windows:
+
+bash
+
+pip install MPYdata
+
+Linux:
+
+bash
+
+pip install MPYdata
+
+Classes
+MPYdata contains the following class:
+
+Name: Mahendra Sai Phaneeswar Yerramsetti
+Email: mahendrayerramsetti@gmail.com
+Phone: 8143418228
+
+Usage
+Here are some basic examples of how to use the MPYdata module:
+
+python
+Copy code
+import MPYdata
+
+# Example code showing basic usage
+API Reference
+Provide detailed descriptions of each class, method, and attribute here. For example:
+
+ClassName
+MPYdata() it contains all codes which are given in codes file
+
+Dependencies
+sqlite3
+numpy
+
+
+Version Information
+2.5.1
+
+Licensing
+MIT Licence
