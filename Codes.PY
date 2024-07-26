@@ -1,5 +1,4 @@
- import MPYdata
-
+from MPYdata import *
 
 db = MPYdata()
 
