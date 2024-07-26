@@ -1,5 +1,6 @@
-#MPYdata
-MPYdata is a Python module designed to simplify database projects with an easy-to-learn syntax and efficient performance. It aims to streamline common database tasks, making it accessible for both beginners and experienced developers.
+##MPYdata
+MPYdata is a Python module designed to simplify database projects with an easy-to-learn syntax and efficient performance.
+It aims to streamline common database tasks, making it accessible for beginners and experienced developers.
 
 #Features
 Simple Syntax: Easily perform database operations with minimal code.
