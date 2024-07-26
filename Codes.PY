@@ -42,7 +42,4 @@ db.update('data', 'name', 'new_name', 'name', 'new_name')
 
 db.rename_table('data', 'new_data')
 
-db.close()
-
-db.disconnect()
 
