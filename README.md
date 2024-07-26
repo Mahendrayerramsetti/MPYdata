@@ -25,7 +25,7 @@ For detailed documentation, including advanced usage and API references, please 
 Contributing
 
 We welcome contributions to improve MPYdata. To contribute:
-
+please contact through mail mahendrayerramsetti@gmail.com
 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
