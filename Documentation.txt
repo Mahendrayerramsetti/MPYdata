@@ -28,24 +28,23 @@ Phone: 8143418228
 Usage
 Here are some basic examples of how to use the MPYdata module:
 
-python
+Python
 Copy code
 import MPYdata
 
-# Example code showing basic usage
-API Reference
-Provide detailed descriptions of each class, method, and attribute here. For example:
 
 ClassName
-MPYdata() it contains all codes which are given in codes file
+MPYdata() contains all codes which are given in the codes file
 
 Dependencies
 sqlite3
-numpy
+NumPy
 
 
 Version Information
-2.5.1
+5.0.0
 
 Licensing
 MIT Licence
+
+#sorry I have deleted previous versions due to bugs in Module
