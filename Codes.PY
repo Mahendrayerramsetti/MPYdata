@@ -1,45 +1,35 @@
-from MPYdata import *
+    # Sample code.py
+    from MPYdata import MPYdata
+    
+    # Create an instance of the MPYdata class
+    db = MPYdata()
 
-db = MPYdata()
 
-db.connect('data.db')   
-
-db.create_table('data', 'name text, age integer')
-
-db.insert('data', 'name, age')
-
-db.getall('data')
-
-db.rename_column('data', 'name', 'new_name')
-
-db.rename_table('data', 'new_data')
-
-db.delete_table('data')
-
-db.delete_column('data', 'name')
-
-db.delete('data', 'name')
-
-db.update('data', 'name', 'new_name', 'name', 'new_name')
-
-db.showallcolumns()
-
-db.showalltables()
-
-db.showalldata()
-
-db.showalltypes()
-
-db.showallvalues()
-
-db.dbname()
-
-db.select('data', 'name')
-
-db.delete('data', 'name')
-
-db.update('data', 'name', 'new_name', 'name', 'new_name')
-
-db.rename_table('data', 'new_data')
-
+    # Connect to the database
+    print("Connecting to database...")
+    db.connect('data.db')
+    print("Connected successfully.")
+    
+    # Create a table
+    print("Creating table...")
+    db.create_table('test_table', 'id INTEGER PRIMARY KEY, name TEXT, age INTEGER')
+    print("Table created successfully.")
+    
+    # Insert data into the table
+    print("Inserting data...")
+    db.insert('test_table', '1, John Doe, 30')
+    db.insert('test_table', '2, Jane Doe, 25')
+    print("Data inserted successfully.")
+    
+    # Retrieve and print all data from the table
+    print("Retrieving data...")
+    all_data = db.getall('test_table')
+    print("All data in test_table:")
+    for row in all_data:
+        print(row)
+    
+    # Disconnect from the database
+    print("Disconnecting from database...")
+    db.disconnect()
+    print("Disconnected successfully.")
 
