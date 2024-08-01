@@ -38,5 +38,4 @@ Mahendra Sai Phaneeswar Yerramsetti
 
 Email: mahendrayerramsetti@gmail.com
 
-Phone: 8143418228
 
